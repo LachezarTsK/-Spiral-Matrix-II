@@ -30,7 +30,6 @@ var generateMatrix = function (sideMatrix) {
         }
         row = row + this.directions[indexDirection][0];
         column = column + this.directions[indexDirection][1];
-
     }
     return matrix;
 };
