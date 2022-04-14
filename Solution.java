@@ -27,7 +27,6 @@ public class Solution {
             }
             row = row + directions[indexDirection][0];
             column = column + directions[indexDirection][1];
-
         }
         return matrix;
     }
